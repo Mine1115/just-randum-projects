@@ -27,17 +27,10 @@ if ans == "b" then
   print("Energy", ENERGY)
  end
 if ans == "c" then
-  WOOD = WOOD  = 10 
- STONE  = 5 
- ("water",water) 
-   print("Energy", energy) 
-  end 
- if ans == "c" then 
-   WOOD  = WOOD + 3 
-   stone = stone + 3 
-   energy = energy - 1 
-   print("wood",WOOD, "stone", stone) 
-   print("Energy", energy) 
+  WOOD = WOOD + 3
+ STONE  = STONE + 3
+  print("wood",WOOD, "stone", STONE) 
+   print("Energy", ENERGY) 
   end 
  if ans ~= "b"  and ~= "a" and ~= "c" then 
    print("(A) get food, (B) get water, (C) get 
