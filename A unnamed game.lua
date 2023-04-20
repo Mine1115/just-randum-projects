@@ -23,6 +23,15 @@ ans = io.read()
 if ans == "b" then
   water = water + 3
   energy = energy - 1
-  print("food",food)
+  print("water",water)
   print("Energy", energy)
+ end
+if ans == "c" then
+  wood = wood + 3
+  energy = energy - 1
+  print("wood",wood)
+  print("Energy", energy)
+ end
+if ans ~= "b"  and ~= "a" and ~= "c" then
+  print("(A) get food, (B) get water, (C) get
  end
