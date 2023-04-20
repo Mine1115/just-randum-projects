@@ -28,8 +28,9 @@ if ans == "b" then
  end
 if ans == "c" then
   wood = wood + 3
+  stone = stone + 3
   energy = energy - 1
-  print("wood",wood)
+  print("wood",wood, "stone", stone)
   print("Energy", energy)
  end
 if ans ~= "b"  and ~= "a" and ~= "c" then
