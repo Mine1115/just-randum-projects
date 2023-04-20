@@ -20,3 +20,9 @@ ans = io.read()
   print("food",food)
   print("Energy", energy)
  end
+if ans == "b" then
+  water = water + 3
+  energy = energy - 1
+  print("food",food)
+  print("Energy", energy)
+ end
